@@ -405,3 +405,69 @@ After Phase I, the focus shifts from operational readiness to growth, personaliz
 - **Data Warehouse & BI Tools** – Centralized data storage for long-term analysis, machine learning models, and deeper business reporting.
 
 These Phase II enhancements will be prioritized based on user adoption metrics, feedback, performance signals, and business impact after the product’s initial release.
+
+### Project Implementation Teams
+#### MVP Team Structure
+Number of teams: 3
+Total developers: 8–10
+
+##### Team 1 – Frontend
+Developers: 3
+Responsibilities:
+- Customer Web/Mobile App
+- Admin Dashboard
+- Kitchen Dashboard
+- Delivery Driver App
+- UI logic and API integration
+
+##### Team 2 – Core Backend & API
+Developers: 3–4
+Responsibilities:
+- API Gateway
+- Order, Menu, Meal, Ingredients services
+- Kitchen and Delivery services
+- Relational database design and core business logic
+
+##### Team 3 – Authentication, Payments & Integrations
+- Developers: 2–3
+- Responsibilities:
+- Authentication and role-based access control
+- Payment processing and payment provider integration
+- Notifications service
+- External integrations (maps, email/SMS providers)
+
+#### Phase I Team Structure (Fully Releasable Product)
+Number of teams: 5
+Total developers: 14–16
+
+##### Team 1 – Frontend Platform
+Developers: 3–4
+Responsibilities:
+- All user-facing applications
+- Performance improvements and production UI polish
+
+##### Team 2 – Core Domain Backend
+Developers: 4
+Responsibilities:
+- Orders, Menu, Meal, Ingredients
+- Kitchen and Delivery domain logic
+- Service boundaries and API contracts
+
+##### Team 3 – Async Processing & Messaging
+Developers: 2–3
+Responsibilities:
+- Order and notification queues
+- Event-driven workflows and retries
+
+##### Team 4 – Platform / DevOps
+Developers: 2–3
+Responsibilities:
+- Monitoring and observability
+- CI/CD pipelines and infrastructure automation
+
+##### Team 5 – Payments, Subscriptions & Integrations
+Developers: 2–3
+Responsibilities:
+- Subscription renewals and billing
+- Payment reliability
+- External service integrations
