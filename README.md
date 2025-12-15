@@ -471,3 +471,7 @@ Responsibilities:
 - Subscription renewals and billing
 - Payment reliability
 - External service integrations
+
+### Project Data Schema
+#### Simplified schema diagram
+<img width="871" height="723" alt="OVERSIMPLIFIED DB SCHEMA drawio" src="https://github.com/user-attachments/assets/ad165d72-4648-45ab-a82e-b344e3fc9a58" />
