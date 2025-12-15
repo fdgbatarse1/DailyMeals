@@ -474,5 +474,4 @@ Responsibilities:
 
 ### Project Data Schema
 #### Simplified schema diagram
-<img width="871" height="731" alt="OVERSIMPLIFIED DB SCHEMA drawio (1)" src="https://github.com/user-attachments/assets/b571b56a-5207-4dcd-a252-24f79e458cb7" />
-
+<img width="871" height="723" alt="OVERSIMPLIFIED DB SCHEMA drawio (2)" src="https://github.com/user-attachments/assets/f7f4ca14-87f1-4db7-8ace-e57c55abd9a3" />
