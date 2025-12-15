@@ -374,3 +374,34 @@ sequenceDiagram
         NPROV-->>NOTIF: Provider accepted
     end
 ```
+
+### Project Phases
+
+#### MVP
+This diagram represents the Minimum Viable Product architecture, showing only the essential services needed for the core user flows.
+
+<img width="1352" height="802" alt="MVP of Food Delivery Platform drawio" src="https://github.com/user-attachments/assets/5e2ed3a8-12a6-47ba-8af8-7517a9c2669b" />
+
+#### Phase I
+
+This diagram includes additional infrastructure for performance, reliability, scalability and observability beyond the minimum MVP.
+
+<img width="1562" height="803" alt="Phase I Food Delivery Platform drawio" src="https://github.com/user-attachments/assets/b84274ea-b08e-4d5b-990c-27607568a2f3" />
+
+#### Phase II
+
+After Phase I, the focus shifts from operational readiness to growth, personalization, real-time experience, and long-term insights. These enhancements are planned to increase user engagement, provide business value, and support data-driven decisions.
+
+##### Proposed Phase II Features
+- **Analytics & Reporting** – Build dashboards and metrics to understand usage patterns, customer behavior, order trends, and system performance.
+- **Recommendation Engine** – Personalized meal suggestions based on user preferences, order history, and trends.
+- **Real-Time Delivery Tracking** – Enable live driver location updates, real-time ETA, and status notifications via WebSockets or push mechanisms.
+- **Loyalty & Rewards System** – Reward frequent users with points, badges, discounts, and loyalty tiers to improve retention.
+- **In-App Support Chat** – Real-time customer support messaging between users and support agents or automated assistants.
+- **Advanced RBAC & Audit Logging** – Fine-grained role-based access control and audit trails for compliance and security.
+- **Offline Sync & Push Notifications** – Support offline app usage with sync queues and reliable push notifications when connectivity returns.
+- **A/B Testing & Feature Flags** – Experiment safely with UI or workflow changes to measure impact before full rollout.
+- **CDN for Static Asset Delivery** – Use a Content Delivery Network to scale globally and speed up delivery of images, media, and static content.
+- **Data Warehouse & BI Tools** – Centralized data storage for long-term analysis, machine learning models, and deeper business reporting.
+
+These Phase II enhancements will be prioritized based on user adoption metrics, feedback, performance signals, and business impact after the product’s initial release.
